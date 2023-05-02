@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">BioBolt</string>
+    <string name="name">Név</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="user_name">Felhasználónév</string>
+    <string name="email">Email</string>
+    <string name="cancel">Mégse</string>
+    <string name="passwordagain">Jelszó újra</string>
+    <string name="tel">Tel</string>
+    <string name="address">Lakcím</string>
+    <string name="productdescription">Termék leírás</string>
+    <string name="logingoogle">Bejelentkezés GOOGLE fiókkal</string>
+    <string name="loginguest">Bejelentkezés vendégként</string>
+    <string name="title">Termék neve</string>
+    <string name="sub">leírás</string>
+    <string name="price">Ár</string>
+    <string name="cart">Kosár</string>
+    <string name="delete">Törlés</string>
+    <string-array name="tel_mode">
+        <item>Mobil</item>
+        <item>Otthoni</item>
+        <item>Egyéb</item>
+    </string-array>
+
+    <string-array name="itemsName">
+        <item>Alma</item>
+        <item>Répa</item>
+        <item>Tojás</item>
+        <item>Méz</item>
+        <item>Szörp</item>
+        <item>Tej</item>
+        <item>Barack</item>
+        <item>Körte</item>
+        <item>Paprika</item>
+        <item>Szilva</item>
+        <item>Szappan</item>
+        <item>Paradicsom</item>
+    </string-array>
+    <string-array name="itemsSub">
+        <item>Gazdag forrása a rostnak és a C-vitaminnak.</item>
+        <item>Gazdag forrása a karotinoidoknak és rostnak.</item>
+        <item>Gazdag fehérjeforrás és számos fontos tápanyagot tartalmaz, mint például B-vitaminok, kolin és lutein.</item>
+        <item>Egy édesítőszer, amely természetes forrásból származik és antioxidánsokat, enzimeket és ásványi anyagokat tartalmaz.</item>
+        <item>Gyümölcsből készítik, széles körben használják koktélokban, üdítőkben és desszertekben.</item>
+        <item>Gazdag forrása a kalciumnak, fehérjéknek és egyéb tápanyagoknak.</item>
+        <item>Gazdag forrása a C-vitaminnak és a rostnak.</item>
+        <item>Gazdag antioxidánsokban.</item>
+        <item>Gazdag forrása a C-vitaminnak és az antioxidánsoknak.</item>
+        <item>Gazdag forrása a rostnak, a C-vitaminnak és a K-vitaminnak.</item>
+        <item>Szappan természetes és organikus összetevőkből.</item>
+        <item>Gazdag forrása a C-vitaminnak, a karotinoidoknak és a likopinnak.</item>
+    </string-array>
+    <array name="itemsRate">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>4</item>
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </array>
+    <array name="itemsImg">
+        <item>@drawable/apple</item>
+        <item>@drawable/carrot</item>
+        <item>@drawable/egg</item>
+        <item>@drawable/honey</item>
+        <item>@drawable/juice</item>
+        <item>@drawable/milk</item>
+        <item>@drawable/peach</item>
+        <item>@drawable/pear</item>
+        <item>@drawable/pepper</item>
+        <item>@drawable/plum</item>
+        <item>@drawable/soap</item>
+        <item>@drawable/tomato</item>
+    </array>
+
+    <string-array name="itemsPrice">
+        <item>550 Ft</item>
+        <item>650 Ft</item>
+        <item>720 Ft</item>
+        <item>2450 Ft</item>
+        <item>1250 Ft</item>
+        <item>480 Ft</item>
+        <item>450 Ft</item>
+        <item>550 Ft</item>
+        <item>310 Ft</item>
+        <item>400 Ft</item>
+        <item>760 Ft</item>
+        <item>520 Ft</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemImage"
+            android:padding="5dp"
+            android:text="@string/title"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#4CAF50"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemTitle"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/itemsubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBar"
+            android:padding="5dp"
+            android:text="@string/sub"
+            android:textStyle="italic"
+            android:textColor="#4CAF50"
+            android:textSize="14sp"
+            />
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#4CAF50"
+            android:onClick="cancel"
+            android:layout_below="@+id/itemsubTitle"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/delete"
+            android:layout_marginTop="18dp"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:onClick="register"
+                android:text="@string/price" />
+            <Button
+                android:id="@+id/cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cart"
+                android:layout_marginStart="22dp"
+                android:backgroundTint="#013220"
+                android:onClick="cancel"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
